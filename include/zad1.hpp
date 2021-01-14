@@ -16,16 +16,14 @@ public:
 // Zad1
 // tutaj definicja klasy Tagliatelle
 
-class Tagliatelle : public Makaron
-{
+class Tagliatelle : public Makaron{
 
     public:
     Tagliatelle(double l, double w, double r) : L(l), W(w), R(r) {}
 
     Tagliatelle(): L(0.5), W(0.5), R(0.5){}
 
-    virtual double ileMaki(unsigned int P) const override 
-    {
+    virtual double ileMaki(unsigned int P) const override {
         return P * L * W * (1. - R) * C;
     }
 

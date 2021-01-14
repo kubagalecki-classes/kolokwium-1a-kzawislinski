@@ -16,7 +16,7 @@ public:
 // Zad1
 // tutaj definicja klasy Tagliatelle
 
-class Tagliatelle : Makaron
+class Tagliatelle : public Makaron
 {
 
     public:
